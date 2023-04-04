@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title>Barangay Cabog Website Design</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="CABOGINDEX.html"><img src="images/CABOG.png"></a>
+            <div class="address">
+                <p>
+                    Republic of the Philippines<br>
+                    Province of Bohol<br>
+                    Municipality of Clarin<br>
+                    Barangay Cabog
+                </p>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="HIDE()"></i>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="history.html"><b>History</b></a></li>
+                    <li><a href="gallery.html"><b>Gallery</b></a></li>
+                    <li><a href="announcement.html"><b>Announcement</b></a></li>
+                    <li><a href="contact us.html"><b>Developers</b></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="SHOW()"></i>
+        </nav>
+
+    <section class="history">
+        <h1 class="buttonhistory">BARANGAY CABOG HISTORY</h1>
+                   <p>
+                   <br>During the Japanese occupation the place is a part of Barrio Tubod.<br>
+                   <br>The place traversed by two streams namely Cabog and Anislagan Creeks, both side of the streams growned a natural growing trees like Tuog,Anislag and etc.<br>
+                   <br>There were bats in vernacular ( CABOG ) stay during  night time.<br>
+                   <br>Then the Barangay folks wants to separate from mother Barangay Tubod<br>
+                   <br>CABOG was originated by the Polinar Family, Silagan Family,Enoc Family,Patac Family,Boton Family,Fuentes Family,Bascon Family.</br>
+                   <br>This Family joined hand in hand to formed a new Barrio name CABOG on June 26, 1948.</br>
+                  </p>
+        <div class="historyrow">
+            <div class="historycolumn">
+                <h3>MISSION</h3>
+                <p>
+                 During the Japanese occupation the place is a part of Barrio Tubod.
+                </p>
+            </div>
+            <div class="historycolumn">
+                <h3>VISION</h3>
+                <p>
+                During the Japanese occupation the place is a part of Barrio Tubod. 
+                </p>
+            </div>
+            <div class="historycolumn">
+                <h3>GOAL</h3>
+                <p>
+                    During the Japanese occupation the place is a part of Barrio Tubod.   
+                </p>
+            </div>
+    </section>
+
+
+
+
+<!------FOOTER------->
+<section class="footer">
+      <h4>Barangay Cabog &copy 2023 - All Rights Reserved</h4>
+      <p>Cabog Clarin bohol</p>
+      <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-whatsapp"></i>
+      </div>
+    </section>
+
+
+<!------HIDE AND SHOW MENU------->
+<script>
+var navlinks=document.getElementById("navlinks");
+function SHOW(){
+    navlinks.style.right="0";
+}
+function HIDE(){
+    navlinks.style.right="-200px";
+}
+
+</script>
+</body>
+</html>
